@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Hull 파생상품책 요약"
+  author: "김형환"
+  date: "2024. 3. 1."
+  chapters:
+    - index.qmd
+    - Chapter1-2.qmd
+    - Chapter3.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: flatly
+    linestretch : 1.8
+  pdf:
+    documentclass: scrreprt
+
+
+
